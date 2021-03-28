@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-01",
+      "run": "./soal-01",
+      "input": "2\r\nuzui\r\n2200\r\n1900\r\nrengoku\r\n2300\r\n2100\r\ndaki\r\n1900\r\n2300\r\nmuzan\r\n4000\r\n4200",
+      "output": "Hasil pertarungan\r\nuzui vs daki: hasilnya seri\r\nrengoku vs muzan: pemenangnya adalah muzan dari tim iblis\r\n\r\nSkor akhir : 0 untuk tim pemburu dan 1 untuk tim iblis\r\n\r\nPEMENANGANYA ADALAH TIM IBLIS",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\ngiyu\r\n2400\r\n2300\r\nkanroji\r\n2200\r\n2400\r\niguro\r\n2200\r\n2200\r\ngyutaro\r\n2100\r\n2400\r\nakaza\r\n2500\r\n2400\r\ngyokko\r\n2250\r\n2000",
+      "output": "Hasil pertarungan\r\niguro vs gyutaro: hasilnya seri\r\nkanroji vs gyokko: hasilnya seri\r\ngiyu vs akaza: hasilnya seri\r\n\r\nSkor akhir : 0 untuk tim pemburu dan 0 untuk tim iblis\r\nJumlah attack pemburu: 6800\r\nJumlah attack iblis: 6850\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "4\r\ntokitou\r\n2300\r\n2300\r\nsanemi\r\n2500\r\n2500\r\ngyoumei\r\n2600\r\n2600\r\nshinobu\r\n2100\r\n2100\r\nkaigaku\r\n1900\r\n1900\r\ndouma\r\n2400\r\n2400\r\nhantengu\r\n2200\r\n2200\r\nkokushibou\r\n3000\r\n3000",
+      "output": "Hasil pertarungan\r\nshinobu vs kaigaku: pemenangnya adalah shinobu dari tim pemburu\r\ntokitou vs hantengu: hasilnya seri\r\nsanemi vs douma: pemenangnya adalah sanemi dari tim pemburu\r\ngyoumei vs kokushibou: pemenangnya adalah kokushibou dari tim iblis\r\n\r\nSkor akhir : 2 untuk tim pemburu dan 1 untuk tim iblis\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\ntanjirou\r\n2000\r\n2000\r\nnezuko\r\n1900\r\n2100",
+      "output": "Hasil pertarungan\r\ntanjirou vs nezuko: hasilnya seri\r\n\r\nSkor akhir : 0 untuk tim pemburu dan 0 untuk tim iblis\r\nJumlah attack pemburu: 2000\r\nJumlah attack iblis: 1900\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "1\r\nzenitsu\r\n2100\r\n2300\r\nkaigaku\r\n2000\r\n1900",
+      "output": "Hasil pertarungan\r\nzenitsu vs kaigaku: pemenangnya adalah zenitsu dari tim pemburu\r\n\r\nSkor akhir : 1 untuk tim pemburu dan 0 untuk tim iblis\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "2\r\ninosuke\r\n2000\r\n1900\r\nkanao\r\n2100\r\n2000\r\nnakime\r\n2100\r\n2000\r\nroro\r\n2000\r\n1800",
+      "output": "Hasil pertarungan\r\ninosuke vs roro: pemenangnya adalah inosuke dari tim pemburu\r\nkanao vs nakime: pemenangnya adalah nakime dari tim iblis\r\n\r\nSkor akhir : 1 untuk tim pemburu dan 1 untuk tim iblis\r\nJumlah attack pemburu: 2000\r\nJumlah attack iblis: 2100\r\n\r\nPEMENANGANYA ADALAH TIM IBLIS",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "3\r\ndavid\r\n2000\r\n2000\r\ndhanu\r\n2000\r\n2000\r\nirvan\r\n2000\r\n2000\r\nnur\r\n1900\r\n1800\r\nalex\r\n1900\r\n2000\r\ndismas\r\n2300\r\n2000",
+      "output": "Hasil pertarungan\r\nirvan vs nur: pemenangnya adalah irvan dari tim pemburu\r\ndhanu vs alex: hasilnya seri\r\ndavid vs dismas: hasilnya seri\r\n\r\nSkor akhir : 1 untuk tim pemburu dan 0 untuk tim iblis\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "4\r\nnur\r\n1200\r\n1300\r\nsekti\r\n1100\r\n1000\r\nwaskitha\r\n1300\r\n1400\r\njati\r\n1300\r\n1000\r\nalex\r\n1300\r\n1100\r\nsandra\r\n1200\r\n1100\r\nhanda\r\n1400\r\n1000\r\nyani\r\n1300\r\n1100",
+      "output": "Hasil pertarungan\r\nsekti vs sandra: hasilnya seri\r\nnur vs yani: hasilnya seri\r\njati vs alex: pemenangnya adalah jati dari tim pemburu\r\nwaskitha vs handa: hasilnya seri\r\n\r\nSkor akhir : 1 untuk tim pemburu dan 0 untuk tim iblis\r\n\r\nPEMENANGANYA ADALAH TIM PEMBURU",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "5\r\nlinta\r\n1200\r\n1300\r\npeye\r\n1400\r\n1500\r\nfey\r\n1100\r\n1000\r\nalam\r\n1300\r\n1200\r\nzaki\r\n1200\r\n1400\r\nthea\r\n1300\r\n1200\r\ntasya\r\n1200\r\n1300\r\nvivi\r\n1100\r\n1300\r\nrufi\r\n1400\r\n1500\r\nedo\r\n1500\r\n1300",
+      "output": "Hasil pertarungan\r\nfey vs vivi: hasilnya seri\r\nlinta vs tasya: hasilnya seri\r\nzaki vs thea: hasilnya seri\r\nalam vs rufi: pemenangnya adalah rufi dari tim iblis\r\npeye vs edo: pemenangnya adalah peye dari tim pemburu\r\n\r\nSkor akhir : 1 untuk tim pemburu dan 1 untuk tim iblis\r\nJumlah attack pemburu: 4900\r\nJumlah attack iblis: 5000\r\n\r\nPEMENANGANYA ADALAH TIM IBLIS",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-01",
+      "input": "6\r\nadit\r\n2200\r\n2000\r\nedo\r\n2300\r\n2100\r\nsalomo\r\n2400\r\n2200\r\nsekti\r\n2300\r\n2200\r\naby\r\n2100\r\n2000\r\nyason\r\n2500\r\n2400\r\naisya\r\n2300\r\n2100\r\nmilla\r\n2200\r\n2100\r\nrifda\r\n2400\r\n2000\r\nifa\r\n2100\r\n2500\r\nanin\r\n2500\r\n2300\r\namel\r\n1900\r\n2000",
+      "output": "Hasil pertarungan\r\naby vs amel: pemenangnya adalah aby dari tim pemburu\r\nadit vs ifa: pemenangnya adalah ifa dari tim iblis\r\nedo vs milla: pemenangnya adalah edo dari tim pemburu\r\nsekti vs aisya: pemenangnya adalah aisya dari tim iblis\r\nsalomo vs rifda: pemenangnya adalah salomo dari tim pemburu\r\nyason vs anin: pemenangnya adalah anin dari tim iblis\r\n\r\nSkor akhir : 3 untuk tim pemburu dan 3 untuk tim iblis\r\nJumlah attack pemburu: 6800\r\nJumlah attack iblis: 6900\r\n\r\nPEMENANGANYA ADALAH TIM IBLIS",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
